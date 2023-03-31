@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCA X 1337</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+      
+
+<div id="background"></div>
+<canvas id="gameCanvas"></canvas>
+<button id="restartButton" class="hidden pixel-art-button">Restart</button>
+
+  <!-- Add the start screen and play button elements -->
+  <div id="startScreen">
+  <div class="clock">
+    <div class="hand hour-hand"></div>
+    <div class="hand minute-hand"></div>
+    <div class="hand second-hand"></div>
+  </div>
+
+<img src="1337.png" alt="1337 Logo" class="logo" />
+    <h1 class="rainbow">The Cyber Alliance!</h1>
+    <p class="credits"> hold tight we are coming soon.  <a href="#modal" class="modal-trigger">Read Me</a></p>
+    <button id="playButton" class="pixel-art-button">Play</button>
+    
+
+
+    <div id="modal" class="modal">
+    <div class="modal-overlay" aria-label="Close"></div>
+    <div class="modal-content">
+      <a href="#" class="modal-close" aria-label="Close">&times;</a>
+      <h2>1337 CTF</h2>
+      <p>In 2055, TCA's creative team faces an interstellar nightmare: the dreaded 1337. Welcome to "1337 you can hack," a journey through the cosmic void of agency bureaucracy.</p>
+
+<p>Battle endless waves of 1337 foes, while pondering the futility of existence. Will you annihilate the clerical swarm and file your report, or succumb to the black hole of administrative drudgery?</p>
+
+<p>Join the fight in an existential parody that proves 1337 are inescapable, even in the cosmos.</p>
+      
+   <p>Also, just do your "HACKING" dude.</p>   
+   <p>Prizes</p>
+   <ul>
+    <li>TBA</li>
+   </ul>
+      
+    <p class="controls"> 
+  <img src="https://thegeekdesigner.com/img/timesheet/keyboard.gif" alt="keyboard_icon" class="keyboard" />    
+      
+      Controls: <br/>Desktop only. Spacebar to shoot, left & right arrows to move, 'M' to mute.</p>       
+      
+ 
+            <p class="music-credit"> DISCLAIMER: Registration will be open soon till then you can fight against cosmos. to fight just press "Play" <br/> @TeamTCA</p>
+      
+    </div>
+  </div>
+  
+  </div>
+
+
+<!-- Add this line to your HTML file -->
+<img id="gameOverImage" src="https://thegeekdesigner.com/img/timesheet/fail.png" style="display:none; max-width:400px;">
+<script src="main.js"></script>
+</body>
+</html>
