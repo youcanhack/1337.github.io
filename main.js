@@ -531,7 +531,7 @@ if (enemies.length === 0) {
   ctx.textAlign = 'left';
   ctx.textBaseline = 'middle';
 
-  const victoryText = "You're done...for now.";
+  const victoryText = "You're done for now. you should wait for main event ;)";
   const textWidth = ctx.measureText(victoryText).width;
   const xOffset = (canvas.width - textWidth) / 2;
   const yOffset = canvas.height / 2;
@@ -595,7 +595,6 @@ for (let i = 0; i < ENEMY_ROWS; i++) {
     );
   }
 }
-
   // Hide the restart button and start the game loop again
   restartButton.classList.add('hidden');
   gameLoop();
@@ -620,4 +619,7 @@ playButton.addEventListener('click', () => {
 });
 
 
+function reg(){
+  window.location.href = "https://register.haxyfox.com/";
+}
 // ... (all the previous code remains the same)
