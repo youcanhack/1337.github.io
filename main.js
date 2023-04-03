@@ -622,4 +622,4 @@ playButton.addEventListener('click', () => {
 function reg(){
   window.location.href = "https://register.haxyfox.com/";
 }
-// ... (all the previous code remains the same)
+// ... (all the previous code remains the same) 
