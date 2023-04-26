@@ -620,7 +620,7 @@ playButton.addEventListener('click', () => {
 
 
 function reg(){
-  window.location.href = "https://register.haxyfox.com/";
+  window.location.href = "https://battleground.haxyfox.com/ctflogin";
 }
 // ... (all the previous code remains the same) and yes you have 1 flag here 
 //TCA{832889850702b15fc55d2bb5c5981cac}
